@@ -16,14 +16,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://alsuwaidigarage.com'),
+  metadataBase: new URL('https://alsuwaidiautorepair.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Al Suwaidi Auto Repair Garage Dubai | Best Car Repair Services',
     description: 'Expert car repair services in Dubai - Engine, transmission, AC, brake repair. Trusted for 3 generations. Open 8AM-9PM daily in Umm Ramool.',
-    url: 'https://alsuwaidigarage.com',
+    url: 'https://alsuwaidiautorepair.com',
     siteName: 'Al Suwaidi Auto Repair Garage',
     locale: 'en_AE',
     type: 'website',
