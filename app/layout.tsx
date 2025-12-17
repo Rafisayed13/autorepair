@@ -17,13 +17,8 @@ export const metadata: Metadata = {
     telephone: false,
   },
   icons: {
-    icon: [
-      { url: '/logoalsaud.png' },
-      { url: '/logoalsaud.png', sizes: '16x16', type: 'image/png' },
-      { url: '/logoalsaud.png', sizes: '32x32', type: 'image/png' },
-    ],
-    shortcut: '/logoalsaud.png',
-    apple: '/logoalsaud.png',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
   },
   metadataBase: new URL('https://alsuwaidiautorepair.com'),
   alternates: {
