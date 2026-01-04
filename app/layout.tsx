@@ -17,8 +17,12 @@ export const metadata: Metadata = {
     telephone: false,
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' }
+    ],
     shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
   metadataBase: new URL('https://alsuwaidiautorepair.com'),
   alternates: {
