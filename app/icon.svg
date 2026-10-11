@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#991B1B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#grad)"/>
+  
+  <!-- Wrench tool -->
+  <path d="M35 40 L35 60 L40 60 L40 45 L60 45 L60 40 Z" fill="white" stroke="white" stroke-width="2"/>
+  
+  <!-- Gear/Cog -->
+  <circle cx="65" cy="65" r="12" fill="none" stroke="white" stroke-width="3"/>
+  <circle cx="65" cy="65" r="6" fill="white"/>
+  
+  <!-- Arabic style accent -->
+  <text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">AS</text>
+</svg>
